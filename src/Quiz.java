@@ -47,8 +47,16 @@ public class Quiz {
 	public static int situmon5(){
 		Scanner sc = new Scanner(System.in);
 		int ans = 0;
-		return ans;
-
+		// 質問内容を表示
+		String kotae;
+		System.out.println("問5");
+		System.out.println("戦場ヶ原ひたぎを担当している声優はだれでしょう？");
+		kotae = sc.next();
+		if(kotae.equals("斎藤千和")){
+			return 1;
+		}else{
+			return 2;
+		}
 	}
 
 	public static int situmon6(){
