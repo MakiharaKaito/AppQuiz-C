@@ -51,7 +51,7 @@ public class Quiz {
 		String kotae;
 		System.out.println("問5");
 		System.out.println("戦場ヶ原ひたぎを担当している声優はだれでしょう？");
-		kotae = sc.next();
+		kotae=sc.next();
 		if(kotae.equals("斎藤千和")){
 			return 1;
 		}else{
